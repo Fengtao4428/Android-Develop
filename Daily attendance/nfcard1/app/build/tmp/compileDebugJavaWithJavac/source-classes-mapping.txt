@@ -1,0 +1,52 @@
+com/sinpo/xnfc/tech/FeliCa.java
+ com.sinpo.xnfc.tech.FeliCa
+ com.sinpo.xnfc.tech.FeliCa$Block
+ com.sinpo.xnfc.tech.FeliCa$BlockListElement
+ com.sinpo.xnfc.tech.FeliCa$Command
+ com.sinpo.xnfc.tech.FeliCa$IDm
+ com.sinpo.xnfc.tech.FeliCa$MemoryConfigurationBlock
+ com.sinpo.xnfc.tech.FeliCa$PMm
+ com.sinpo.xnfc.tech.FeliCa$PollingResponse
+ com.sinpo.xnfc.tech.FeliCa$ReadResponse
+ com.sinpo.xnfc.tech.FeliCa$Response
+ com.sinpo.xnfc.tech.FeliCa$Service
+ com.sinpo.xnfc.tech.FeliCa$ServiceCode
+ com.sinpo.xnfc.tech.FeliCa$SystemCode
+ com.sinpo.xnfc.tech.FeliCa$Tag
+ com.sinpo.xnfc.tech.FeliCa$WriteResponse
+com/sinpo/xnfc/card/OctopusCard.java
+ com.sinpo.xnfc.card.OctopusCard
+com/sinpo/xnfc/BuildConfig.java
+ com.sinpo.xnfc.BuildConfig
+com/sinpo/xnfc/card/pboc/BeijingMunicipal.java
+ com.sinpo.xnfc.card.pboc.BeijingMunicipal
+com/sinpo/xnfc/card/VicinityCard.java
+ com.sinpo.xnfc.card.VicinityCard
+com/sinpo/xnfc/card/pboc/HardReader.java
+ com.sinpo.xnfc.card.pboc.HardReader
+com/sinpo/xnfc/card/pboc/ShenzhenTong.java
+ com.sinpo.xnfc.card.pboc.ShenzhenTong
+com/sinpo/xnfc/card/pboc/YangchengTong.java
+ com.sinpo.xnfc.card.pboc.YangchengTong
+com/sinpo/xnfc/Util.java
+ com.sinpo.xnfc.Util
+com/sinpo/xnfc/card/pboc/PbocCard.java
+ com.sinpo.xnfc.card.pboc.PbocCard
+com/sinpo/xnfc/card/CardManager.java
+ com.sinpo.xnfc.card.CardManager
+com/sinpo/xnfc/card/pboc/WuhanTong.java
+ com.sinpo.xnfc.card.pboc.WuhanTong
+com/sinpo/xnfc/tech/Iso7816.java
+ com.sinpo.xnfc.tech.Iso7816
+ com.sinpo.xnfc.tech.Iso7816$BerL
+ com.sinpo.xnfc.tech.Iso7816$BerT
+ com.sinpo.xnfc.tech.Iso7816$BerTLV
+ com.sinpo.xnfc.tech.Iso7816$BerV
+ com.sinpo.xnfc.tech.Iso7816$ID
+ com.sinpo.xnfc.tech.Iso7816$Response
+ com.sinpo.xnfc.tech.Iso7816$Tag
+com/sinpo/xnfc/card/pboc/ChanganTong.java
+ com.sinpo.xnfc.card.pboc.ChanganTong
+com/sinpo/xnfc/NFCard.java
+ com.sinpo.xnfc.NFCard
+ com.sinpo.xnfc.NFCard$ContentType

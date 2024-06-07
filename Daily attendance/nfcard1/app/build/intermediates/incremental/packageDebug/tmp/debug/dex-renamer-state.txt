@@ -1,0 +1,4 @@
+#Sat Mar 04 19:54:25 CST 2023
+base.0=F\:\\dpr\\School-PPT\\2023-mobile-internet\\src-example\\nfcDemo\\nfcard1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

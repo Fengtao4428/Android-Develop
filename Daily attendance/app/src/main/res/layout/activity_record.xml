@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="打卡主题"
+        android:layout_marginBottom="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/start_record_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始打卡"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/record_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

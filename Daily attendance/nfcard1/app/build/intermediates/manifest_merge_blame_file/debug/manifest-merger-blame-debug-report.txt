@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sinpo.xnfc"
+4    android:versionCode="1"
+5    android:versionName="1.1.111223" >
+6
+7    <uses-sdk
+7-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:4:2-41
+8        android:minSdkVersion="18"
+8-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:4:12-38
+9        android:targetSdkVersion="30" />
+9-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:4:2-41
+10
+11    <uses-permission android:name="android.permission.NFC" />
+11-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:27:2-59
+11-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:27:19-56
+12
+13    <uses-feature
+13-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:28:2-29:29
+14        android:name="android.hardware.nfc"
+14-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:28:16-51
+15        android:required="true" />
+15-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:29:3-26
+16
+17    <application
+17-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:6:2-26:16
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_app_main"
+19-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:6:15-51
+20        android:label="@string/app_name" >
+20-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:6:52-84
+21        <activity
+21-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:7:3-25:14
+22            android:name="com.sinpo.xnfc.NFCard"
+22-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:7:13-34
+23            android:configChanges="keyboardHidden|orientation"
+23-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:8:4-54
+24            android:label="@string/app_name"
+24-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:7:35-67
+25            android:launchMode="singleTask"
+25-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:9:41-72
+26            android:screenOrientation="portrait"
+26-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:9:4-40
+27            android:windowBackground="@null"
+27-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:11:4-36
+28            android:windowSoftInputMode="adjustUnspecified|stateAlwaysHidden" >
+28-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:10:4-69
+29            <intent-filter>
+29-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:12:4-15:20
+30                <action android:name="android.intent.action.MAIN" />
+30-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:13:5-57
+30-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:13:13-54
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:14:5-65
+32-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:14:15-62
+33            </intent-filter>
+34            <intent-filter>
+34-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:16:4-18:20
+35                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+35-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:17:5-65
+35-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:17:13-62
+36            </intent-filter>
+37
+38            <meta-data
+38-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:19:4-20:47
+39                android:name="android.nfc.action.TECH_DISCOVERED"
+39-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:19:15-64
+40                android:resource="@xml/nfc_tech_filter" />
+40-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:20:5-44
+41
+42            <intent-filter>
+42-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:21:4-24:20
+43                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+43-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:22:5-64
+43-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:22:13-61
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:23:5-64
+45-->F:\dpr\School-PPT\2023-mobile-internet\src-example\nfcDemo\nfcard1\app\src\main\AndroidManifest.xml:23:15-61
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>
